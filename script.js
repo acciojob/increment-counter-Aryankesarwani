@@ -1,7 +1,7 @@
 //your JS code here. If required.
 function count() {
-	let n = Number(document.getElementById('p').innerHTML);
+	let n = Number(document.getElementById('counter').innerHTML);
 	alert(n);
 	n++;
-	document.getElementById('first').innerHTML=n;
+	document.getElementById('counter').innerHTML=n;
 }
